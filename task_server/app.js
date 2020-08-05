@@ -1,7 +1,6 @@
 const path 			= require('path');
 const config 		= require('config');
 const express 		= require('express');
-const WebSocket 	= require('ws');
 const router 		= express.Router();
 const cookieParser 	= require('cookie-parser');
 const bodyParser 	= require('body-parser');

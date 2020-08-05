@@ -31,9 +31,9 @@
 
 		<hr>
 		<div class="row">
-			<div class="col-md-1">id</div>
-			<div class="col-md-3">name</div>
-			<div class="col-md-7">description</div>
+			<!--<div class="col-md-3">id</div>-->
+			<div class="col-md-2">name</div>
+			<div class="col-md-6">description</div>
 			<div class="col-md-1">priority</div>
 		</div>
 		<hr>
@@ -94,10 +94,10 @@
 				console.log(data)
 				data.tasks.forEach((taskData) => {
 					$('#tasks').append(`<div class="row task">
-						<div class="col-md-1">${taskData.id}</div>
-						<div class="col-md-3">${taskData.name}</div>
-						<div class="col-md-7">${taskData.description}</div>
-						<div class="col-md-1">${taskData.priorety}</div>
+						<!--<div class="col-md-3">${taskData._id}</div>-->
+						<div class="col-md-2">${taskData.name}</div>
+						<div class="col-md-6">${taskData.description}</div>
+						<div class="col-md-1">${taskData.priority}</div>
 					</div>`);
 				})
 
